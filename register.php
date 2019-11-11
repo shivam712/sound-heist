@@ -17,7 +17,7 @@
 
 <html>
 <head>
-	<title>Welcome to Slotify!</title>
+	<title>Welcome to Sound Heist Music!</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/register.css">
 
@@ -57,7 +57,7 @@
 					<p>
 						<?php echo $account->getError(Constants::$loginFailed); ?>
 						<label for="loginUsername">Username</label>
-						<input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('loginUsername') ?>" required>
+						<input id="loginUsername" name="loginUsername" type="text" placeholder="e.g. shivamAgrawal" value="<?php getInputValue('loginUsername') ?>" required autocomplete="off">
 					</p>
 					<p>
 						<label for="loginPassword">Password</label>
@@ -80,7 +80,7 @@
 						<?php echo $account->getError(Constants::$usernameCharacters); ?>
 						<?php echo $account->getError(Constants::$usernameTaken); ?>
 						<label for="username">Username</label>
-						<input id="username" name="username" type="text" placeholder="e.g. bartSimpson" value="<?php getInputValue('username') ?>" required>
+						<input id="username" name="username" type="text" placeholder="e.g. shivamAgrawal" value="<?php getInputValue('username') ?>" required>
 					</p>
 
 					<p>
@@ -132,15 +132,7 @@
 
 			</div>
 
-			<div id="loginText">
-				<h1>Get great music, right now</h1>
-				<h2>Listen to loads of songs for free</h2>
-				<ul>
-					<li>Discover music you'll fall in love with</li>
-					<li>Create your own playlists</li>
-					<li>Follow artists to keep up to date</li>
-				</ul>
-			</div>
+			
 
 		</div>
 	</div>
